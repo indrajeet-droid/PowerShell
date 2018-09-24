@@ -1,0 +1,33 @@
+get list of folder and files:- dir
+
+jump to inside folder:- cd indra
+
+go back:- cd ..
+
+clear screen :- cls
+
+history of command which we have typed:- get-history
+
+invoke command from history using ID:- invoke-history 4
+
+getting running process:- get-process
+
+getting running process based on name:- get-process notepad
+
+getting running process start from S:- get process s*
+
+start the process:- start-process notepad
+
+stop the process:- stop-process -name notepad
+
+stop processes by id:- stop-process -id 6428
+
+get the process and stop:- get-process notepad | stop-process 
+
+get to know what command is doing:- get-process notepad | stop-process  -whatif
+
+
+Keys:-
+
+get the command name:- tab
+back command:- Shit+tab 
