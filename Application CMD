@@ -31,3 +31,8 @@ Keys:-
 
 get the command name:- tab
 back command:- Shit+tab 
+
+
+
+
+" taskkill /F /FI ""USERNAME eq " +Environment.UserName.ToString +""" /IM saplogon.exe" ....isScript enable
